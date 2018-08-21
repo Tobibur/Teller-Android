@@ -1,8 +1,8 @@
 package com.levibostian.tellerexample.viewmodel
 
-import android.arch.lifecycle.LiveData
-import android.arch.lifecycle.LiveDataReactiveStreams
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.LiveDataReactiveStreams
+import androidx.lifecycle.ViewModel
 import com.levibostian.teller.datastate.OnlineDataState
 import com.levibostian.tellerexample.model.db.AppDatabase
 import com.levibostian.tellerexample.model.RepoModel

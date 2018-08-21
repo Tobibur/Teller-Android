@@ -1,6 +1,6 @@
 package com.levibostian.tellerexample.model
 
-import android.arch.persistence.room.*
+import androidx.room.*
 
 @Entity(tableName = "repo")
 class RepoModel(@PrimaryKey var id: Long = 0,

@@ -1,18 +1,18 @@
 package com.levibostian.tellerexample.activity
 
-import android.arch.lifecycle.Observer
-import android.arch.lifecycle.ViewModelProviders
-import android.support.v7.app.AppCompatActivity
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.levibostian.tellerexample.R
 import com.levibostian.tellerexample.model.db.AppDatabase
 import com.levibostian.tellerexample.service.GitHubService
 import com.levibostian.tellerexample.viewmodel.ReposViewModel
 import retrofit2.Retrofit
-import android.arch.persistence.room.Room
+import androidx.room.Room
 import android.os.Handler
-import android.support.design.widget.Snackbar
-import android.support.v7.widget.LinearLayoutManager
+import com.google.android.material.snackbar.Snackbar
+import androidx.recyclerview.widget.LinearLayoutManager
 import android.text.format.DateUtils
 import android.view.View
 import android.widget.TextView
@@ -28,7 +28,7 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.*
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
 import com.levibostian.tellerexample.extensions.closeKeyboard
 import com.levibostian.tellerexample.util.DependencyUtil
 
